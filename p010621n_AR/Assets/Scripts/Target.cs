@@ -9,7 +9,7 @@ public class Target : MonoBehaviour
 
     private void Awake()
     {
-        m_ScoreTracker = FindObjectOfType<XROrigin>().GetComponent<Scoretracker>();
+        m_ScoreTracker = FindFirstObjectByType<XROrigin>().GetComponent<Scoretracker>();
     }
     private void OnCollisionEnter(Collision collision)
     {

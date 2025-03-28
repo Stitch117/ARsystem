@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: ba1353c59195a0c45bce728164a678cc
+  - enabled: 1
     path: Assets/Scenes/ShootingScene.unity
     guid: 64ab5a80a17a2404d99d1d6a90795ab9
+  - enabled: 1
+    path: Assets/Scenes/ImageTrackingScene.unity
+    guid: 03a26118347b1ef4cbd21975859d73d7
+  - enabled: 1
+    path: Assets/Scenes/FaceTracking.unity
+    guid: d351bf0a9e2afce438a4928a33d803c6
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
