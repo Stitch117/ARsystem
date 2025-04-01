@@ -263,7 +263,6 @@ GameObject:
   - component: {fileID: 926409601}
   - component: {fileID: 926409600}
   - component: {fileID: 926409599}
-  - component: {fileID: 926409598}
   - component: {fileID: 926409597}
   - component: {fileID: 926409602}
   - component: {fileID: 926409603}
@@ -290,24 +289,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_RaycastPrefab: {fileID: 0}
---- !u!114 &926409598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 926409596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <trackablesChanged>k__BackingField:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlanePrefab: {fileID: 1585201990951412, guid: a6b7ca1d53c75490595d1f0d5f43be38,
-    type: 3}
-  m_DetectionMode: -1
 --- !u!114 &926409599
 MonoBehaviour:
   m_ObjectHideFlags: 0
